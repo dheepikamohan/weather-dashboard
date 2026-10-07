@@ -63,7 +63,7 @@ export default function App() {
         <div style ={{ padding: "40px",  fontFamily: "sans-serif", background: theme.bg,color:theme.text, minHeight: "100vh",transition:"background 0.3s"}}>
           <img src={cloudy} alt="cloudy" style={{width: "80px"}} />
 
-            <h1 style ={{ color: theme.text,fontSize:"28px", textAlign:"center"}}>Nordic Weather Dashboard</h1>
+            <h1 style ={{ color: theme.text,fontSize:"28px", textAlign:"center"}}> Dheepika's Weather Dashboard</h1>
 
            <div style ={{ display: "flex", flexWrap: "wrap", gap: "10px", justifyContent:"flex-start", paddingLeft: "123px" }}>
             {cities.map((city)=> (
