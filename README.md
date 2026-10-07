@@ -1,16 +1,19 @@
-# React + Vite
+Weather Dashboard
+  A React weather dashboard showing current conditions, a 7day forecast and an 48-hour temperature trend for an city. Vasteras is the default city.
+  ##Features
+   .CirySearch
+   .7-day forecast with daily high and low temperature.
+   .48-hour temperature trend chart with time labels
+   .Dark and light theme toggle.
+   .Export the 7day forecast and 48-hour trend to Excel(two sheets).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   ##Built With
+    .React+Vite
+    .OPenMeteoAPI for weather data
+    .Recharts for charts
+    .SheetJs for Excelexport.
+   
+   
+   
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   
